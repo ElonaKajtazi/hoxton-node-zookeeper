@@ -26,5 +26,5 @@ ALTER TABLE animals DROP favorite_food;
 ALTER TABLE animals ADD COLUMN  origin ; -- added a column  named origin for the whole table ✅
 UPDATE animals SET origin="Rugove - Peje" WHERE name="Luna"; -- added a city for each animal like this ✅
 
--- Can you feed all the animals using just one command?
+-- Can you feed all the animals using just one command? ✅
 UPDATE animals SET was_fed="Yes";
